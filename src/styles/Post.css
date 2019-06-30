@@ -1,0 +1,49 @@
+.post {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(6, 7, 61);
+}
+
+h3 {
+  width: 70%;
+  margin: 0;
+  padding: 0;
+}
+
+.remove {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgb(6, 7, 61);
+  color: rgb(6, 7, 61);
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  line-height: 20px;
+}
+
+.envelope {
+  display: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:hover .envelope {
+  display: inline;
+  font-weight: bold;
+}
